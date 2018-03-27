@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  script(src='/javascripts/index.js')
+  .main-overlay
+    .webcam-wrapper
+      .fortnite-info
+        .row
+          .left
+            .line
+            h1 wins
+          .slant
+          .right
+            h1
+              span#wins 0            
+        .row
+          .left
+            .line
+            h1 streak
+          .slant
+          .right
+            h1
+              span#winstreak 0
+  h1= title
+  p Welcome to #{title}

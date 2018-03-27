@@ -1,0 +1,104 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.main-overlay {
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+}
+
+.webcam-wrapper {
+  position: absolute;
+  width: 480px;
+  height: 270px;
+  top: 404px;
+  left: 25px;
+  outline: 5px solid #252525;
+  outline-offset: 0px;
+  -webkit-box-shadow:inset 0px 0px 0px 5px #252525;
+  -moz-box-shadow:inset 0px 0px 0px 5px #252525;
+  box-shadow:inset 0px 0px 0px 5px #252525;
+}
+
+.fortnite-info {
+  position: absolute;
+  bottom: -100px;
+  left: -5px;
+  right: -5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.fortnite-info h1 {
+  margin: 0;
+  font-size: 1.65em;
+  letter-spacing: 0.1em;
+}
+
+.fortnite-info .row {
+  margin-bottom: 5px;
+}
+
+.fortnite-info .row .left, .fortnite-info .row .right {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.fortnite-info .row .left {
+  position: relative;
+  width: 215px;
+  height: 25px;
+  background-color: #252525;
+  color: deepskyblue;
+}
+
+.fortnite-info .row .right {
+  position: relative;
+  float: right;
+  width: 215px;
+  height: 25px;
+  background-color: deepskyblue;
+  text-align: right;
+  font-family: 'Anton', sans-serif;
+  font-size: 0.95em;
+}
+
+.fortnite-info .row .slant {
+  display: inline-block;
+  background-color: deepskyblue;
+  height: 0;
+  width: 0;
+  border-left: 0px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 35px solid #252525;
+}
+
+.fortnite-info .row .left .line {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  bottom: 5px;
+  width: 2px;
+  background-color: deepskyblue;
+}
+
+.fortnite-info .row .left h1 {
+  margin-left: 5px;
+  position: absolute;
+  top: 1px;
+  bottom: 0;
+  left: 10px;
+}
+
+.fortnite-info .row .right h1 {
+  position: absolute;
+  top: 2px;
+  bottom: 0;
+  right: 5px;
+}
